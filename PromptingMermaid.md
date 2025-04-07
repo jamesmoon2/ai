@@ -88,6 +88,6 @@ graph TD
     EC3 --> EC3b[Specify output formatting]
     EC --> EC4[Model Self-Reflection]
     EC4 --> EC4a[Request confidence score]
-    EC4 --> EC4b[Explain confidence level]\
+    EC4 --> EC4b[Explain confidence level]
 
 ```
