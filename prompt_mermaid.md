@@ -1,4 +1,4 @@
-# AI Interaction Strategy Framework 
+# Prompting Foundation Models
 
 ```mermaid
 graph TB
