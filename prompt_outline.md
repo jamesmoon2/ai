@@ -1,4 +1,3 @@
-
 # AI Interaction Strategy Framework
 
 This document outlines a structured approach to designing effective AI prompts. It distinguishes between system-level prompts, user-level prompts, shared techniques, meta-techniques for self-improvement, and engineering considerations to ensure clarity, consistency, and high-quality outputs.
@@ -7,16 +6,16 @@ This document outlines a structured approach to designing effective AI prompts. 
 
 ## System Prompt Layer
 
-The system prompt sets the foundation for the AI's behavior. It defines how the AI should think, respond, and maintain context across interactions. Treat this like the model’s “job description.”
+The system prompt sets the foundation for the AI's behavior. It defines how the AI should think, respond, and maintain context across interactions. Treat this like the model's "job description." You are able to adjust the system prompt when building your own AI applications, by using Projects for Claause, and by building custom GPTs on ChatGPT.
 
 - **Define Persona**  
   Assign the AI a specific role or character to adopt. This shapes tone, perspective, and domain expertise.
 
 - **Set Tone and Style**  
-  Specify how responses should sound — formal, conversational, bullet-pointed, etc. Consistency improves clarity.
+  Specify how responses should sound — formal, conversational, bullet-pointed, etc. 
 
 - **Set Constraints and Limits**  
-  Control response length, creativity level, and depth of explanation. Helps manage verbosity or conciseness.
+  Control response length, creativity level, and depth of explanation. Helps manage verbosity or conciseness. You can also address creativity via parameters.
 
 - **Memory Management**  
   Define what context the model should remember within the session. Helps with continuity in longer workflows.
@@ -50,13 +49,13 @@ The system prompt sets the foundation for the AI's behavior. It defines how the 
 
 ## User Prompt Layer
 
-The user prompt defines the specific task or question at hand. It focuses the AI's attention and ensures alignment with the user’s immediate goal.
+The user prompt defines the specific task or question at hand. It focuses the AI's attention and ensures alignment with the user's immediate goal.
 
 - **Clear Task or Question**  
   Be explicit about what you want the AI to do. Avoid vague prompts.
 
 - **Output Format**  
-  Define the desired format: list, table, JSON, Markdown, etc.
+  Define the desired format: narrative, list, table, JSON, Markdown, etc.
 
 - **Background and Context**  
   Provide enough information for the AI to understand your goals, even if it has no prior knowledge.
@@ -80,7 +79,7 @@ The user prompt defines the specific task or question at hand. It focuses the AI
 
 | Element | Description |
 |---------|-------------|
-| Clear Task or Question | Defines exactly what you’re asking the AI to do. |
+| Clear Task or Question | Defines exactly what you're asking the AI to do. |
 | Output Format | Specifies output style or structure. |
 | Background and Context | Provides essential context for the task. |
 | Clarify Questions | Prompts AI to inquire about missing details. |
@@ -96,7 +95,7 @@ The user prompt defines the specific task or question at hand. It focuses the AI
 Shared techniques are reusable prompt enhancements that apply across both system and user prompts. They strengthen reasoning, improve accuracy, and introduce best practices.
 
 - **Chain of Thought**  
-  Request step-by-step reasoning to improve transparency and accuracy.
+  Request step-by-step reasoning to improve transparency and accuracy. This is less important when using reasoning models, such as Claude Sonnet 3.7 or OpenAI's ChatGPT o3.
 
 - **Few-Shot Examples**  
   Provide examples of ideal inputs and outputs to set expectations.
@@ -105,7 +104,7 @@ Shared techniques are reusable prompt enhancements that apply across both system
   Clarify what a successful answer looks like to guide the AI.
 
 - **External Knowledge Use**  
-  Instruct the model to assume access to external data or context as needed.
+  Instruct the model to access to external data or context as needed, if the model has access to tools.
 
 - **Error Handling**  
   Prompt the AI to flag uncertainties or potential mistakes proactively.
@@ -131,7 +130,7 @@ Shared techniques are reusable prompt enhancements that apply across both system
 Meta-layer techniques turn the AI into a co-designer of its own prompts. They promote continuous improvement and learning over time.
 
 - **Log Successes and Failures**  
-  Keep track of what works and what doesn’t for future reference.
+  Keep track of what works and what doesn't for future reference.
 
 - **Maintain Prompt Library**  
   Build a library of successful prompts to reuse.
@@ -177,6 +176,48 @@ Engineering considerations ensure your prompts work reliably at scale, in produc
 | Risk Management | Prompts AI to flag risks or uncertainties. |
 | Stylistic Preferences | Guides formatting and style. |
 | Model Self-Reflection | Requests confidence scores and reasoning. |
+
+---
+
+## Prompt Structure and Organization
+
+Effective prompts benefit from consistent formatting and logical organization. This section addresses how to physically structure prompts and where to position different components.
+
+- **Formatting Options**  
+  Choose a consistent formatting approach that makes your prompt readable and parsable:
+  - **Markdown**: Use headings, lists, and code blocks for organization
+  - **XML Tags**: Enclose sections in custom tags like `<instructions>...</instructions>`
+  - **JSON**: Structure complex prompts as parsable JSON objects
+  - **Delimiters**: Use triple backticks, triple dashes, or other clear separators
+
+- **Component Placement**  
+  Position elements strategically within your prompt:
+  - **Context First**: Begin with background information and key context
+  - **Instructions Second**: Place clear action items after establishing context
+  - **Examples Last**: End with demonstrations or few-shot examples
+  - **Hierarchical Structure**: Organize from general instructions to specific details
+
+- **Visual Hierarchy**  
+  Use formatting to create visual emphasis:
+  - **Bold/Italic**: Highlight critical instructions or constraints
+  - **Indentation**: Group related concepts and create parent-child relationships
+  - **Line Breaks**: Separate distinct instructions for clarity
+  - **Numbered Steps**: Order sequential instructions explicitly
+
+- **Semantic Sections**  
+  Group related instructions into labeled sections:
+  - **Required vs. Optional**: Clearly distinguish must-have elements
+  - **Input vs. Output**: Separate what you're providing from what you expect
+  - **Guidelines vs. Examples**: Differentiate rules from demonstrations
+
+### Prompt Structure Details
+
+| Element | Description |
+|---------|-------------|
+| Formatting Options | Selects a consistent syntax approach (Markdown, XML, JSON, etc.) |
+| Component Placement | Determines logical ordering of prompt elements |
+| Visual Hierarchy | Uses formatting to establish importance and relationships |
+| Semantic Sections | Groups related instructions into meaningful clusters |
 
 ---
 
