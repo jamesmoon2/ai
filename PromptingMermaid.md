@@ -50,7 +50,7 @@ graph TD
     UP7 --> UP7b[Request logical consistency]
     UP --> UP8[Post-Processing Suggestions]
     UP8 --> UP8a[Recommend next steps]
-    UP8 --> UP8b[Offer optional formats (Markdown, JSON)]
+    UP8 --> UP8b[Offer optional formats such as Markdown, JSON]
 
     %% Shared Techniques
     S --> S1[Chain of Thought Prompting]
@@ -78,13 +78,13 @@ graph TD
 
     %% Engineering Considerations
     EC --> EC1[Execution Context]
-    EC1 --> EC1a[Specify environment assumptions (Python, Markdown, etc.)]
+    EC1 --> EC1a[Specify environment assumptions such as Python, Markdown, etc.]
     EC1 --> EC1b[Define system capabilities or access]
     EC --> EC2[Risk Management]
     EC2 --> EC2a[Flag high-risk areas]
     EC2 --> EC2b[Provide risk notes]
     EC --> EC3[Stylistic Preferences]
-    EC3 --> EC3a[Define tone (formal, casual, etc.)]
+    EC3 --> EC3a[Define tone such as formal, casual, etc.]
     EC3 --> EC3b[Specify output formatting]
     EC --> EC4[Model Self-Reflection]
     EC4 --> EC4a[Request confidence score]
