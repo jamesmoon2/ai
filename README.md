@@ -1,6 +1,4 @@
-# An Open Source Repository for Working with AI 
-
-## This is a working playbook for getting better at using AI.
+# This is a working playbook for getting better at using AI.
 
 I’m James Mooney, and I’ve spent a lot of time testing how foundation models behave in the real world — what works, what fails, and how to get useful output without wasting time. These notes are the product of that process.
 
