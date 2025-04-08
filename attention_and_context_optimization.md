@@ -10,9 +10,9 @@ However, this representational power comes at a significant cost. The standard s
 
 ## Selective Attention: Nature's Solution to Information Overload
 
-The biological inspiration for attention mechanisms provides valuable insights into optimization strategies. Human cognition doesn't process all sensory input equally—instead, it selectively focuses on relevant information while filtering out distractions. Attention mechanisms in AI are inspired by this biological capability to prioritize salient information while ignoring less important details.
+The biological inspiration for attention mechanisms provides valuable insights into optimization strategies. Human cognition doesn't process all sensory input equally. Instead, it selectively focuses on relevant information while filtering out distractions. Attention mechanisms in AI are inspired by this biological capability to prioritize salient information while ignoring less important details.
 
-This selective processing represents an evolved solution to the information bottleneck problem, allowing cognitive systems to manage vast input streams with finite neural resources. Similarly, optimized transformer architectures implement forms of selective attention that prioritize computationally significant interactions while minimizing unnecessary operations.
+This selective processing allowz cognitive systems to manage large input streams with finite neural resources. Similarly, optimized transformer architectures implement forms of selective attention that prioritize significant interactions while minimizing unnecessary operations.
 
 ## Token Economy Strategies: Maximizing Context Efficiency
 
