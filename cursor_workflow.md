@@ -19,7 +19,7 @@ Tag in the Markdown files you created in Step 1.
 Ask Gemeni to review product documentation, the code base, and the plans creted in Step 1. 
 Example Prompt: Determine if anything was missed when preparing the @[Plans]. Please list each issue identified separately in a numbered list. Beneath each issue propose at least two ways to resolve the issue. For each approach, explain briefly the pros and cons. These explanations should be 25-100 words. 
 
-###Step 2.5
+### Step 2.5
 
 Evaluate your options. If you are not able to clearly determine an approach for each issue based on Gemeni's feedback, you should converse with Claude 3.7, ChatGPT 4o, or Gemeni Pro 2.5 to learn more about each option and elect an approach. 
 
