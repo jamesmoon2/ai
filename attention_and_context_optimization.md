@@ -1,6 +1,6 @@
 # The Computational Economics of Attention: Why Context Window Optimization Matters
 
-Effective context window management represents one of the most significant yet underappreciated paradigm shifts in maximizing transformer model performance. While the attention mechanism fundamentally transformed deep learning, its computational cost grows quadratically with sequence length, creating an economic tension between context size and computational feasibility. This article examines how attention optimization and token economy strategies provide measurable improvements through principled approaches to managing these trade-offs.
+Effective context window management is essential to maximizing transformer model performance. While the attention mechanism transformed deep learning, its computational cost grows quadratically with sequence length, creating tension between context size and computational feasibility. These notes relate to attention optimization and token economy strategies to manage these trade-offs.
 
 ## Attention as a Computational Resource
 
