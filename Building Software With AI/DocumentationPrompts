@@ -1,0 +1,176 @@
+# Flask Application Documentation Prompts
+
+This document contains a series of prompts designed to help an AI assistant create comprehensive documentation for a Flask application previously developed by junior engineers. These prompts cover all aspects of documentation required to ensure professional and scalable development going forward.
+
+## Prompt 1: Architecture and Code Structure Documentation
+
+```
+As a principal software engineer, I need comprehensive documentation for a Flask application previously developed by junior engineers. Please create detailed documentation covering:
+
+1. System Architecture Overview:
+   - Create a clear high-level diagram description showing all components, services, and data flows
+   - Document the complete technology stack with versions
+   - Detail the infrastructure layout across development, staging, and production environments
+   - Explain key architectural decisions with their rationales
+
+2. Code Structure and Organization:
+   - Document the module organization and package structure
+   - Explain the Blueprint/component breakdown
+   - Define folder structure conventions with examples
+   - Establish naming conventions for consistency
+   - Set import order standards
+
+For each section, include:
+- Clear principles and rationale connecting to DRY, Separation of Concerns, and YAGNI
+- Concrete code examples from a typical Flask application showing both proper implementations and anti-patterns
+- Visual diagrams where helpful
+- Decision-making frameworks for when to apply specific approaches
+
+Your documentation should balance being prescriptive enough to ensure consistency while avoiding over-engineering.
+```
+
+## Prompt 2: Development Environment and Processes
+
+```
+Create detailed documentation for our Flask application covering development environment setup and processes:
+
+1. Development Environment Setup:
+   - Provide step-by-step instructions for environment configuration
+   - List all required dependencies with version constraints
+   - Detail virtual environment setup and management
+   - Explain local testing procedures
+   - Document database setup and migration processes
+
+2. Deployment Pipeline:
+   - Detail our CI/CD workflow with stage gates
+   - Explain the environment promotion strategy
+   - Document rollback procedures for failed deployments
+   - Describe our blue/green deployment configuration
+   - Explain feature flag implementation and management
+
+3. Testing Framework:
+   - Document our unit testing approach with practical examples
+   - Outline integration testing strategy
+   - Detail end-to-end testing procedures
+   - Explain test fixtures and factories usage
+   - Document mocking strategies for external dependencies
+
+Include specific examples, command snippets, and screenshots where appropriate. The documentation should enable a new developer to set up their environment and understand our deployment practices within one day.
+```
+
+## Prompt 3: API and Database Documentation
+
+```
+Create comprehensive documentation for our Flask application's API and database implementation:
+
+1. API Documentation:
+   - Document all endpoints with their routes, methods, and parameters
+   - Specify request/response formats with examples
+   - Detail authentication mechanisms
+   - Explain rate limiting rules
+   - Document our API versioning strategy
+
+2. Database Schema:
+   - Create entity-relationship diagrams showing all relationships
+   - Provide detailed table descriptions including constraints
+   - Document our migration strategy and tools
+   - Establish query optimization guidelines
+   - Detail ORM usage patterns and anti-patterns to avoid
+
+Include examples of proper implementation for each pattern. Focus on how our approaches support DRY principles and Separation of Concerns. Document how we avoid premature optimization (YAGNI) while ensuring the system can scale when needed.
+```
+
+## Prompt 4: Security and Error Handling
+
+```
+Create documentation for our Flask application's security practices and error handling:
+
+1. Security Practices:
+   - Detail our authentication implementation
+   - Document the authorization framework and role management
+   - Establish input validation standards with examples
+   - Explain CSRF protection implementation
+   - Document security headers configuration
+   - Detail our secrets management approach
+
+2. Error Handling:
+   - Document our global exception handling strategy
+   - Detail our custom exception hierarchy
+   - Explain logging configuration and standards
+   - Document monitoring integration
+   - Specify alerting thresholds and incident response
+
+Include concrete code examples for each section that demonstrate best practices. The documentation should enable developers to implement security features consistently and handle errors appropriately throughout the application.
+```
+
+## Prompt 5: Performance Optimization and Coding Standards
+
+```
+Create detailed documentation for our Flask application covering performance considerations and coding standards:
+
+1. Performance Considerations:
+   - Document our caching strategy and implementation
+   - Provide database query optimization guidelines with examples
+   - Explain our approach to asynchronous task processing
+   - Detail our load testing methodology
+   - Document scaling strategies (horizontal vs. vertical)
+
+2. Coding Standards:
+   - Document adherence to style guides (PEP 8, etc.)
+   - Provide a comprehensive code review checklist
+   - Detail configuration for static analysis tools
+   - Establish documentation requirements for new code
+   - Explain linting rules and automated enforcement
+
+Include specific examples showing properly optimized code vs. problematic implementations. Focus on practical guidance that helps developers make appropriate performance decisions without premature optimization. The coding standards should promote consistency while ensuring code quality.
+```
+
+## Prompt 6: Design Patterns and Implementation Guidelines
+
+```
+Create detailed documentation for the core design patterns used in our Flask application:
+
+1. Core Design Patterns:
+   - Document the Factory pattern implementation for app creation
+   - Detail the Repository pattern for data access
+   - Explain the Service layer pattern for business logic
+   - Document any additional patterns used throughout the application
+   - Provide guidelines for implementing new patterns consistently
+
+For each pattern:
+- Explain the problem it solves and when to use it
+- Provide concrete code examples from our application
+- Detail the interfaces and contracts between components
+- Document how the pattern supports DRY and Separation of Concerns
+- Include decision trees to guide when to apply different patterns
+
+The documentation should provide clear guidance on maintaining consistent design patterns while avoiding unnecessary complexity. Include anti-patterns to avoid and explain how they violate our principles.
+```
+
+## Prompt 7: Documentation Template and Standards
+
+```
+Create a documentation template and standards guide for our Flask application that:
+
+1. Establishes a consistent documentation format for:
+   - Module and function docstrings
+   - Class and method documentation
+   - API endpoint documentation
+   - Configuration documentation
+   - Architectural decision records
+
+2. Defines documentation quality standards:
+   - Completeness requirements
+   - Clarity guidelines
+   - Required sections and elements
+   - Update frequency expectations
+   - Review processes
+
+3. Provides templates for common documentation needs:
+   - New feature documentation template
+   - Bug fix documentation template
+   - Architecture change documentation template
+   - Configuration change documentation template
+
+Include examples of well-documented code that meets these standards. The goal is to ensure that all future documentation is consistent, comprehensive, and useful to both new and experienced team members.
+```
