@@ -2,11 +2,11 @@
 
 ## Optimizing Technical Design Through AI Collaboration
 
-The design phase represents a critical juncture in your development process where architectural and implementation decisions materially impact project outcomes. You should use AI to systematically evaluate alternative approaches, identify potential challenges, and select optimal solutions that align with your requirements. By exploring design decisions thoroughly before implementation, you reduce technical debt and establish robust foundations for development. This collaboration with AI enables you to consider more design alternatives and evaluate them more rigorously than traditional approaches.
+The design phase is where architectural and implementation decisions materially impact project outcomes. You should use AI to systematically evaluate alternative approaches, identify potential challenges, and select optimal solutions that align with your requirements. By exploring design decisions thoroughly before implementation, you reduce technical debt and establish robust foundations for development. This collaboration with AI enables you to consider more design alternatives and evaluate them more rigorously than traditional approaches.
 
 ## Pattern Selection and Application
 
-You should use AI to identify and apply appropriate design patterns that address your specific requirements. Begin by clearly articulating the problem you're trying to solve, including functional requirements and constraints. Request AI recommendations for relevant design patterns from established categories like creational, structural, and behavioral patterns. Have AI explain how each pattern addresses your requirements and the tradeoffs involved in their implementation. Generate code examples demonstrating pattern implementation in your preferred programming language. Consider requesting explanations of anti-patterns to avoid in your specific domain.
+You should use AI to identify appropriate design patterns that address your specific requirements. Begin by clearly articulating the problem you're trying to solve, including functional requirements and constraints. Request AI recommendations for relevant design patterns from established categories like creational, structural, and behavioral patterns. Have AI explain how each pattern addresses your requirements and the tradeoffs involved in their implementation. Generate code examples demonstrating pattern implementation in your preferred programming language. Consider requesting explanations of anti-patterns to avoid in your specific domain.
 
 ## Technology Stack Evaluation
 
@@ -14,7 +14,7 @@ AI excels at comparing different technology options against your specific requir
 
 ## Architecture Trade-off Analysis
 
-You can use AI to thoroughly evaluate tradeoffs between competing architectural approaches. Clearly describe your performance, scalability, reliability, and maintainability requirements. Request analyses of monolithic versus microservices architectures specific to your use case. Have AI explore serverless versus container-based deployment models considering your operational constraints. Generate load estimation scenarios and their implications for different architectural choices. Consider requesting architectural decision records (ADRs) documenting the rationale behind key design decisions.
+You can use AI to  evaluate tradeoffs between competing architectural approaches. Describe your performance, scalability, reliability, and maintainability requirements in detail. Request analyses of monolithic versus microservices architectures specific to your use case. Have AI explore serverless versus container-based deployment models considering your operational constraints. Generate load estimation scenarios and their implications for different architectural choices. Consider requesting architectural decision records (ADRs) documenting the rationale behind key design decisions.
 
 ## Best Practice Implementation
 
