@@ -1,0 +1,31 @@
+# Research and Solution Exploration with AI
+
+## Literature Review and Knowledge Synthesis
+
+Most knowledge workers rely on their abilities to process information to generatate artifacts and make decsions. AI  accelerates information processing. Learning how to effecively use AI tools enables you to process more information, generate higher quality artifacts, and make decisions in less time. Efficeint AI usage accelerates your ability to search for, gather, and synthesize information into useful artifacts. Empowered with the artifacts, AI can help you evaluate an increased number of options or alternatives more thorougly. You can even use AI to build custom tools to address meeting your specific infomration processing needs. 
+
+## Collecting Information
+
+To collect information about a given topic, one should select a frontier model with the ability to search the internet. As you explore the information abailable consider techniques such as requesting comparative analyses of methodologies, identifying consensus views versus points of contention, extracting core principles from technical documentation, and generating detailed records of where your information was sourced. 
+
+## Data Strategy Development
+
+You should also think about how you can use AI tools to help design robust data collection approaches for your use case. You can generate comprehensive data requirements through a dialog about your objective, you can have your AI suggest collection methodologies appropriate to data types, you can identify potential collection biases, and develop effective data cleaning procedures. 
+
+## Exploratory Data Analysis
+
+Most frontier models can write simple code to generate vizualizations to help you explore your data, the models can help identify patterns, anomolaies, and correlations. They can help you think about the statistical tests you can use to evalute specific hypotheses. 
+
+## Competitive Analysis
+
+You can use AI to understand what your competitors and peers have implemented to solve problems similar to those your are trying to solve. You can evaluate their technical architeture and identify gaps in existing solutions that your product can address. 
+
+## Technology Trend Identification
+
+AI can help you think about new frameworks and tools, as well as their adoption rates. You can learn about how other knowldge workers have architected their solutions. You can evaluate the pros and cons of different approaches. 
+
+## Research Workflow Integration
+
+You can define specific research questions with clear scope, request relevant information sources with credibility assessment, ask for synthesis with explicit comparison of competing views, extract implications specific to project constraints, validate against authoritative sources, and integrate findings with appropriate skepticism. 
+
+Technology workers should establish protocols for AI-assisted research that include verification steps for critical information, standardized prompts for recurring needs, and knowledge repositories combining AI-synthesized information with team expertise.
