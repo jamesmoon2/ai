@@ -6,6 +6,6 @@ You’ll find frameworks for structuring prompts, patterns for building AI-drive
 
 This is as much for me as it is for anyone else. I use this space to sharpen my own thinking, track lessons learned, and keep evolving as the tools improve. If it helps you along the way, even better.
 
-It’s a living document. Expect updates, revisions, and the occasional dead end. Good ideas survive pressure; weak ones don’t. Contributions and challenges are welcome.
+It’s a living repo. Expect updates, revisions, and the occasional dead end. Good ideas survive pressure; weak ones don’t. Contributions and challenges are welcome.
 
 If you’re looking for shortcuts, you won’t find them here. But if you’re looking to work smarter with AI — and think a little sharper along the way — you’re in the right place.
